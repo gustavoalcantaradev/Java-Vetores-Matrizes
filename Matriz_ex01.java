@@ -22,12 +22,9 @@ public class Matriz_ex01 {
 				}
 				if ((linha+coluna) == 2 ) {
 					somaDiagonalsec = somaDiagonalsec + matriz[linha][coluna];
-				}
-				
-			}
-				
-			}
-				
+				}	
+			}		
+		}	
 	    System.out.println("\nElementos da diagonal principal: " + matriz[0][0] + "," +matriz[1][1] + "," + matriz[2][2]);
 	    System.out.println("\nElementos da diagonal secundária: " + matriz[0][2] + "," + matriz[1][1] + "," + matriz[2][0]);
 	
